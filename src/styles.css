@@ -155,3 +155,7 @@
     color: var(--color-foreground);
   }
 }
+
+@utility text-hero-shadow {
+  text-shadow: 0 2px 30px color-mix(in oklab, var(--ink) 55%, transparent);
+}
