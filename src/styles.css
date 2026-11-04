@@ -62,8 +62,10 @@
 }
 
 @theme inline {
-  --font-display: "Instrument Serif", Georgia, serif;
-  --font-sans: "Work Sans", system-ui, sans-serif;
+  --font-display: "Geist", system-ui, sans-serif;
+  --font-sans: "Geist", system-ui, sans-serif;
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
   --color-sky: var(--sky);
   --color-sun: var(--sun);
 }
@@ -71,6 +73,8 @@
 :root {
   --sky: oklch(0.72 0.12 260);
   --sun: oklch(0.9 0.09 85);
+  --ink: oklch(0.2 0.02 260);
+  --ink-foreground: oklch(0.98 0.01 80);
   --radius: 1rem;
   --background: oklch(0.975 0.012 80);
   --foreground: oklch(0.25 0.04 260);
