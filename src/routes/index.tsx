@@ -39,8 +39,9 @@ function Index() {
           alt="Two people laughing and reaching their hands toward each other against a blue sky"
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-ink/55" />
+        <div className="absolute inset-0 bg-ink/60" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--ink)_0%,transparent_70%)] opacity-50" />
+        <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-ink/80 via-ink/30 to-transparent" />
         <header className="relative z-10 flex items-center justify-between px-6 py-6 text-sm md:px-10">
           <span className="text-base font-medium">SafeBound®</span>
           <nav className="hidden gap-8 md:flex">
@@ -53,7 +54,7 @@ function Index() {
           </a>
         </header>
         <div className="relative z-10 flex flex-1 flex-col items-center justify-center px-6 text-center">
-          <h1 className="text-hero-shadow max-w-5xl text-4xl font-normal leading-[1.08] md:text-7xl">
+          <h1 className="text-hero-shadow max-w-4xl text-3xl font-medium leading-[1.15] md:text-5xl lg:text-6xl">
             Building a person-controlled continuity layer between behavioural-health care and
             everyday life
           </h1>
