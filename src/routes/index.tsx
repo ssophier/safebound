@@ -124,7 +124,7 @@ function Index() {
             {[
               [
                 "Lived experience",
-                "If you have lived experience of leaving specialised eating-disorder care or addiction treatment and are willing to talk about what life between appointments is really like, your perspective would help us see what support feels genuinely helpful and what feels harmful or intrusive.",
+                "If you have <Accent>lived experience of leaving specialised eating-disorder care or addiction treatment</Accent> and are willing to talk about what life between appointments is really like, your perspective would help us see what support feels genuinely helpful and what feels harmful or intrusive.",
               ],
               [
                 "Professionals",
