@@ -150,10 +150,10 @@ function Index() {
             We'll reply with a few possible times and a simple overview of the interview.
           </p>
           <a
-            href={`mailto:${EMAIL}`}
+            href={`mailto:${stefanieharma@gmail.com}`}
             className="mt-12 inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-medium text-primary-foreground shadow-lg transition hover:opacity-90"
           >
-            Email us at {EMAIL} <ArrowRight className="h-5 w-5" />
+            Email us <ArrowRight className="h-5 w-5" />
           </a>
         </div>
         <footer className="relative mx-auto mt-40 flex max-w-6xl justify-between text-sm text-muted-foreground">
