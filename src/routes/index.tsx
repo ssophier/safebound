@@ -124,11 +124,29 @@ function Index() {
             {[
               [
                 "Lived experience",
-                "If you have <Accent>lived experience of leaving specialised eating-disorder care or addiction treatment</Accent> and are willing to talk about what life between appointments is really like, your perspective would help us see what support feels genuinely helpful and what feels harmful or intrusive.",
+                <>
+                  If you have{" "}
+                  <Accent>
+                    lived experience of leaving specialised eating-disorder care or addiction
+                    treatment
+                  </Accent>{" "}
+                  and are willing to talk about what life between appointments is really like, your
+                  perspective would help us see what support feels genuinely helpful and what feels
+                  harmful or intrusive.
+                </>,
               ],
               [
                 "Professionals",
-                "If you work in this world as a clinician, therapist, researcher, discharge coordinator, or on digital health and privacy, we'd also like to understand how post-discharge support actually works in your setting, and where a person-controlled layer like SafeBound might fit, or why it shouldn't.",
+                <>
+                  If you work in this world as a{" "}
+                  <Accent>
+                    clinician, therapist, researcher, discharge coordinator, or on digital health
+                    and privacy
+                  </Accent>
+                  , we'd also like to understand how post-discharge support actually works in your
+                  setting, and where a person-controlled layer like SafeBound might fit, or why it
+                  shouldn't.
+                </>,
               ],
             ].map(([title, body]) => (
               <div key={title} className="grid gap-6 py-12 md:grid-cols-[1fr_2fr]">
