@@ -29,6 +29,10 @@ function Label({ children }: { children: React.ReactNode }) {
   return <p className="text-sm font-medium uppercase tracking-[0.15em] text-primary">{children}</p>;
 }
 
+function Accent({ children }: { children: React.ReactNode }) {
+  return <strong className="font-medium text-primary">{children}</strong>;
+}
+
 function Index() {
   return (
     <div className="min-h-screen font-sans tracking-tight text-foreground">
@@ -103,10 +107,11 @@ function Index() {
           <Label>What we're exploring</Label>
           <p className="mt-8 text-2xl font-normal leading-snug md:text-4xl">
             SafeBound is an early-stage project exploring whether a person-controlled digital
-            companion could help fill that gap. We are starting with post-discharge eating-disorder
-            recovery and looking at how people's own patterns, context, and optional physiological
-            signals might support gentle, just-in-time help between appointments, without trying to
-            diagnose or replace clinical care.
+            companion could help fill that gap. We are starting with{" "}
+            <Accent>post-discharge eating-disorder recovery</Accent> and looking at how people's own
+            patterns, context, and physiological signals might support gentle,{" "}
+            <Accent>just-in-time help between appointments</Accent>, without trying to diagnose or
+            replace clinical care.
           </p>
         </div>
       </section>
