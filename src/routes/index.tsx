@@ -3,7 +3,7 @@ import gradient from "@/assets/gradient_safebound.jpg.asset.json";
 import hero from "@/assets/safebound_hero_hands.jpg.asset.json";
 import { ArrowDown, ArrowRight } from "lucide-react";
 
-const EMAIL = "hello@safebound.org";
+export const EMAIL = "stefanieharma@gmail.com";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -20,6 +20,8 @@ export const Route = createFileRoute("/")({
         content:
           "Exploring person-controlled, just-in-time support after discharge from eating-disorder and addiction treatment.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Index,
@@ -150,7 +152,7 @@ function Index() {
             We'll reply with a few possible times and a simple overview of the interview.
           </p>
           <a
-            href={`mailto:${stefanieharma@gmail.com}`}
+            href={`mailto:${EMAIL}`}
             className="mt-12 inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-medium text-primary-foreground shadow-lg transition hover:opacity-90"
           >
             Email us <ArrowRight className="h-5 w-5" />
