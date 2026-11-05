@@ -1,6 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import gradient from "@/assets/gradient_safebound.jpg.asset.json";
-import hero from "@/assets/safebound_hero_hands.jpg.asset.json";
 import { ArrowDown, ArrowRight } from "lucide-react";
 
 export const EMAIL = "stefanieharma@gmail.com";
@@ -37,7 +35,7 @@ function Index() {
       {/* Hero */}
       <section className="relative flex min-h-screen flex-col overflow-hidden bg-ink text-ink-foreground">
         <img
-          src={hero.url}
+          src="/images/safebound_hero_hands.jpg"
           alt="Two people laughing and reaching their hands toward each other against a blue sky"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -96,7 +94,7 @@ function Index() {
       <section
         id="approach"
         className="relative bg-cover bg-center px-6 py-40 md:px-10"
-        style={{ backgroundImage: `url(${gradient.url})` }}
+        style={{ backgroundImage: "url(/images/gradient_safebound.jpg)" }}
       >
         <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-background to-transparent" />
         <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-background to-transparent" />
@@ -140,7 +138,7 @@ function Index() {
       <section
         id="contact"
         className="relative bg-cover bg-bottom px-6 pb-16 pt-40 text-center md:px-10"
-        style={{ backgroundImage: `url(${gradient.url})` }}
+        style={{ backgroundImage: "url(/images/gradient_safebound.jpg)" }}
       >
         <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-background to-transparent" />
         <div className="relative mx-auto max-w-3xl">
